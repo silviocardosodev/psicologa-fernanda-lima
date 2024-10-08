@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/psicologa-fernanda-lima/static/css/main.7d2c23c9.css",
-    "main.js": "/psicologa-fernanda-lima/static/js/main.8084fb3a.js",
+    "main.css": "/psicologa-fernanda-lima/static/css/main.dce41f00.css",
+    "main.js": "/psicologa-fernanda-lima/static/js/main.1778e115.js",
     "static/js/453.a4909b6a.chunk.js": "/psicologa-fernanda-lima/static/js/453.a4909b6a.chunk.js",
     "index.html": "/psicologa-fernanda-lima/index.html",
-    "main.7d2c23c9.css.map": "/psicologa-fernanda-lima/static/css/main.7d2c23c9.css.map",
-    "main.8084fb3a.js.map": "/psicologa-fernanda-lima/static/js/main.8084fb3a.js.map",
+    "main.dce41f00.css.map": "/psicologa-fernanda-lima/static/css/main.dce41f00.css.map",
+    "main.1778e115.js.map": "/psicologa-fernanda-lima/static/js/main.1778e115.js.map",
     "453.a4909b6a.chunk.js.map": "/psicologa-fernanda-lima/static/js/453.a4909b6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2c23c9.css",
-    "static/js/main.8084fb3a.js"
+    "static/css/main.dce41f00.css",
+    "static/js/main.1778e115.js"
   ]
 }
