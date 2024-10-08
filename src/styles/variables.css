@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --brand-color-01: #305ad9;
+    --brand-color-02: #3d66dc;
+    --brand-color-03: #6986e2;
+    --brand-color-04: #93a9eb;
+    --brand-color-05: #becbf5;
+    --support-color-01: #c26a94;
+    --support-color-02: #d579a5;
+    --support-color-03: #edbef5;
+    --neutral-color-01: #ffffff;
+    --neutral-color-02: #f4f4f4;
+    --neutral-color-03: #e4e4e4;
+    --neutral-color-04: #b8b8b8;
+    --neutral-color-05: #5e5e5e;
+    --neutral-color-06: #303030;
+    --neutral-color-07: #181818;
+    --neutral-color-08: #000000;
+
+    --spacing4: 4px;
+    --spacing8: 8px;
+    --spacing16: 16px;
+    --spacing24: 24px;
+    --spacing32: 32px;
+    --spacing48: 48px;
+    --spacing64: 64px;
+
+    --font-size-01: 12px;
+    --font-size-02: 14px;
+    --font-size-03: 16px;
+    --font-size-04: 20px;
+    --font-size-05: 24px;
+    --font-size-06: 32px;
+    --font-size-07: 40px;
+    --font-size-08: 48px;
+
+    --letter-spacing-default:  -0.025em;
+
+    --font-family-base: 'Playfair Display', serif;
+    --font-family-content: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,21 @@
+@import '../../styles/variables.css';
+
+.header {
+  width: 100%;
+  max-width: 1224px;
+  height: var(--spacing64);
+  margin: 0 auto;
+  padding: var(--spacing24);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--spacing4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: var(--neutral-color-08);
+}
+
+svg {
+  max-width: 250px;
+}
