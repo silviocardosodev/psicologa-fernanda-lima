@@ -1,0 +1,63 @@
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: url('./../../assets/images/backgroundBanner.webp') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-pre-content {
+    width: 100%;
+    max-width: 1224px;
+    height: 100%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 0% 0%, var(--brand-color-05), var(--brand-color-03));
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: var(--spacing64);
+    z-index: 2;
+    max-width: 540px;
+}
+
+.hero-title {
+    font-size: var(--font-size-08);
+    font-family: var(--font-family-base);
+    color: var(--neutral-color-01);
+    letter-spacing: var(--letter-spacing-default);
+    margin: 0;
+    padding: 0;
+}
+
+.hero-subtitle {
+    font-size: var(--font-size-04);
+    font-family: var(--font-family-content);
+    color: var(--neutral-color-01);
+    letter-spacing: var(--letter-spacing-default);
+    line-height: 28px;
+    margin: var(--spacing16) 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-banner {
+        background: url('./../../assets/images/backgroundBanner.webp') center left/cover no-repeat;
+    }
+
+    .hero-content {
+        padding: 0 var(--spacing16);
+    }
+}

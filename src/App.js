@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
-import Section from './components/Section';
+import Banner from './components/Banner';
 
 import 'normalize.css'
 
+
 const App = () => {
   return (
-    <div className="main" style={{'backgroundColor': 'lightgray'}}>
+    <div className="main">
       <Header />
-      <Section title="Título da Seção" subtitle="Subtítulo da Seção" />
+      <Banner />
     </div>
   );
 };

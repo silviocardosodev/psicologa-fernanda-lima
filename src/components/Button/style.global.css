@@ -1,13 +1,16 @@
 @import '../../styles/variables.css';
 
 .button {
+  height: var(--spacing48);
   padding: var(--spacing16) var(--spacing24);
   border: none;
   border-radius: var(--spacing4);
   cursor: pointer;
   font-size: var(--font-size-02);
-  font-weight: 600;
+  line-height: 14px;
+  font-weight: 700;
   letter-spacing: var(--letter-spacing-default);
+  text-transform: uppercase;
 }
 
 .button.primary {
@@ -26,6 +29,26 @@
 
 .button.secondary:hover {
   background-color: var(--support-color-03);
+}
+
+.button.tertiary {
+  background-color: transparent;
+  color: var(--neutral-color-08);
+  border: 2px solid var(--neutral-color-08);
+}
+
+.button.tertiary:hover {
+  background-color: var(--neutral-color-01);
+}
+
+.button.quarternary {
+  background-color: transparent;
+  color: var(--neutral-color-01);
+  border: 2px solid var(--neutral-color-01);
+}
+
+.button.quarternary:hover {
+  background-color: var(--support-color-01);
 }
 
 .button.danger {

@@ -1,21 +1,41 @@
 @import '../../styles/variables.css';
 
-.header {
+.flpsi-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--neutral-color-08);
+  background-color: transparent;
+  position: absolute;
+  z-index: 1000;
+}
+
+.flpsi-navbar {
   width: 100%;
   max-width: 1224px;
   height: var(--spacing64);
-  margin: 0 auto;
-  padding: var(--spacing24);
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;  
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: var(--spacing4);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  color: var(--neutral-color-08);
+  align-items: center;
+  padding: var(--spacing24);
+}
+
+.flpsi-navbar-action {
+  display: flex;
+  align-items: center;
 }
 
 svg {
-  max-width: 250px;
+  max-width: 220px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .flpsi-navbar-action button.button {
+    display: none;
+  }
+
 }
